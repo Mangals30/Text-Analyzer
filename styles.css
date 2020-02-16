@@ -1,0 +1,97 @@
+.heading {
+    text-align: center;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50rem;
+    background-color: #D1D6D2;
+}
+.writing-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+    padding: 2rem;
+    
+}
+#text-analyzer{
+    width: 40rem;
+    height: 20rem;
+    margin-top: 1rem;
+}
+.process-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 1rem;
+    background-color: #49779B;
+    color: white;
+    outline: 0;
+}
+.text-heading {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 30px;
+}
+.total-words {
+    padding: 1rem;
+}
+.total-char,.frequent-word {
+    padding: 1rem;
+}
+.results-div {
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    background-color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.results-heading {
+    display: flex;
+    justify-content: space-around;
+    background-color: #49779B;
+    align-items: center;
+    color: white;
+    height: 3rem;
+}
+.results-display {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    align-items: center;
+    border-bottom: 1px solid black;
+    
+}
+.word,.text{
+    width: 5%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.word-count,.text-count {
+    width:10%;
+}
+.text-count{
+    display: flex;
+    justify-content: center;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 5%;
+}
+
+.error-div {
+    display: none;
+    color: red;
+    text-align: left;
+    margin-top: 1rem;
+}
